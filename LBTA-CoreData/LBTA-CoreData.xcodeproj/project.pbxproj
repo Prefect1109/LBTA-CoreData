@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE8809C26BC7F50004C7246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE8809B26BC7F50004C7246 /* AppDelegate.swift */; };
+		FAE880A026BC7F50004C7246 /* CompaniesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE8809F26BC7F50004C7246 /* CompaniesViewController.swift */; };
+		FAE880A826BC7F52004C7246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE880A726BC7F52004C7246 /* Assets.xcassets */; };
+		FAE880AB26BC7F52004C7246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE880A926BC7F52004C7246 /* LaunchScreen.storyboard */; };
+		FAE880B726BC8826004C7246 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE880B626BC8826004C7246 /* Colors.xcassets */; };
+		FAE880BC26BC8998004C7246 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE880BB26BC8998004C7246 /* CustomNavigationController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAE8809826BC7F50004C7246 /* LBTA-CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LBTA-CoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE8809B26BC7F50004C7246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAE8809F26BC7F50004C7246 /* CompaniesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesViewController.swift; sourceTree = "<group>"; };
+		FAE880A726BC7F52004C7246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAE880AA26BC7F52004C7246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAE880AC26BC7F52004C7246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE880B626BC8826004C7246 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		FAE880BB26BC8998004C7246 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE8809526BC7F50004C7246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE8808F26BC7F50004C7246 = {
+			isa = PBXGroup;
+			children = (
+				FAE8809A26BC7F50004C7246 /* LBTA-CoreData */,
+				FAE8809926BC7F50004C7246 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE8809926BC7F50004C7246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE8809826BC7F50004C7246 /* LBTA-CoreData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE8809A26BC7F50004C7246 /* LBTA-CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FAE880B226BC7F56004C7246 /* Application */,
+				FAE880B926BC8922004C7246 /* Common */,
+				FAE880BA26BC893F004C7246 /* Modules */,
+				FAE880B326BC7F5B004C7246 /* Resources */,
+			);
+			path = "LBTA-CoreData";
+			sourceTree = "<group>";
+		};
+		FAE880B226BC7F56004C7246 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FAE8809B26BC7F50004C7246 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FAE880B326BC7F5B004C7246 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAE880A926BC7F52004C7246 /* LaunchScreen.storyboard */,
+				FAE880AC26BC7F52004C7246 /* Info.plist */,
+				FAE880A726BC7F52004C7246 /* Assets.xcassets */,
+				FAE880B626BC8826004C7246 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAE880B426BC7F67004C7246 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAE880BB26BC8998004C7246 /* CustomNavigationController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAE880B526BC84E5004C7246 /* Companies */ = {
+			isa = PBXGroup;
+			children = (
+				FAE8809F26BC7F50004C7246 /* CompaniesViewController.swift */,
+			);
+			path = Companies;
+			sourceTree = "<group>";
+		};
+		FAE880B826BC891A004C7246 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FAE880B926BC8922004C7246 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FAE880B426BC7F67004C7246 /* Views */,
+				FAE880B826BC891A004C7246 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FAE880BA26BC893F004C7246 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FAE880B526BC84E5004C7246 /* Companies */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE8809726BC7F50004C7246 /* LBTA-CoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE880AF26BC7F52004C7246 /* Build configuration list for PBXNativeTarget "LBTA-CoreData" */;
+			buildPhases = (
+				FAE8809426BC7F50004C7246 /* Sources */,
+				FAE8809526BC7F50004C7246 /* Frameworks */,
+				FAE8809626BC7F50004C7246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LBTA-CoreData";
+			productName = "LBTA-CoreData";
+			productReference = FAE8809826BC7F50004C7246 /* LBTA-CoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE8809026BC7F50004C7246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FAE8809726BC7F50004C7246 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = FAE8809326BC7F50004C7246 /* Build configuration list for PBXProject "LBTA-CoreData" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE8808F26BC7F50004C7246;
+			productRefGroup = FAE8809926BC7F50004C7246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE8809726BC7F50004C7246 /* LBTA-CoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE8809626BC7F50004C7246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE880B726BC8826004C7246 /* Colors.xcassets in Resources */,
+				FAE880AB26BC7F52004C7246 /* LaunchScreen.storyboard in Resources */,
+				FAE880A826BC7F52004C7246 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE8809426BC7F50004C7246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE880BC26BC8998004C7246 /* CustomNavigationController.swift in Sources */,
+				FAE880A026BC7F50004C7246 /* CompaniesViewController.swift in Sources */,
+				FAE8809C26BC7F50004C7246 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAE880A926BC7F52004C7246 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE880AA26BC7F52004C7246 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE880AD26BC7F52004C7246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAE880AE26BC7F52004C7246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE880B026BC7F52004C7246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R45Q2DW4H;
+				INFOPLIST_FILE = "LBTA-CoreData/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test-projectTests.LBTA-CoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAE880B126BC7F52004C7246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R45Q2DW4H;
+				INFOPLIST_FILE = "LBTA-CoreData/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "test-projectTests.LBTA-CoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE8809326BC7F50004C7246 /* Build configuration list for PBXProject "LBTA-CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE880AD26BC7F52004C7246 /* Debug */,
+				FAE880AE26BC7F52004C7246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE880AF26BC7F52004C7246 /* Build configuration list for PBXNativeTarget "LBTA-CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE880B026BC7F52004C7246 /* Debug */,
+				FAE880B126BC7F52004C7246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE8809026BC7F50004C7246 /* Project object */;
+}
